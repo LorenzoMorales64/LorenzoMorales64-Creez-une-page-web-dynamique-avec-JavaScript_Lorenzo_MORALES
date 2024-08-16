@@ -478,6 +478,7 @@ const sendDataToBdd = async (token, formData, titleProjet, optionName) => {
         const responseData = await response.json();
         console.log('Successful response:', responseData);
         addWorkGallery(responseData, optionName)
+        //vide la gallerie et rafraichit la gallerie
     } catch (error) {
         console.log("erreur: ", error)
     }
