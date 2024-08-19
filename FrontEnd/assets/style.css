@@ -382,7 +382,7 @@ a {
     border: 1px solid #888;
     width: 501px;
     text-align: center;
-    transform: translate(-230px, 380px);
+    transform: translate(0px, 380px);
     border-radius: 10px;
 }
 
@@ -443,7 +443,7 @@ a {
     padding: 20px;
     border: 1px solid #888;
 	width: 500px;
-    transform: translate(-230px, 380px);
+    transform: translate(0, 380px);
 }
 .close2 {
     float: right;
